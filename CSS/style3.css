@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100vh;
+    background: url(../images/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering.jpg);
+    background-size: cover;
+}
+
+.shots{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .shots video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+
+.shot{
+    /* border: 1px solid; */
+    width: 28.9%;
+    height: 95%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+.shot1{
+    /* border: 2px solid; */
+    width: 40%;
+    height: 95%;
+    border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #66c8d8;
+
+}
+
+.ellam{
+    /* border: 5px solid yellow; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+
+
+.shot video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.box{
+    /* border: 1px solid; */
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: 1px solid;
+    width: 47.5%;
+    height: 30%;
+    background-color: transparent;
+}
+::placeholder{
+    text-align: center;
+}
+
+input{
+    border: 1px solid;
+    width: 47.5%;
+    height: 80%;
+}
+
+.all{
+    /* border: 1px solid; */
+    width: 90%;
+    height: 15%;
+}
+
+.all input{
+    border: 1px solid;
+    width: 100%;
+    height: 80%;
+}
+
+.all ::placeholder{
+    text-align: start;
+}
+a{
+    border: 1px solid;
+    width: 47.5%;
+    height: 30%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content {
+    /* border: 5px solid blue; */
+    width: 90%;
+    height: 25%;
+    font-family: "Poppins", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: cente; */
+}
+
+.content h1{
+    font-size: 30px;
+
+}
+
+.check{
+    /* border: 1px solid; */
+    font-size: 12px;
+    width: 90%;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: start;
+    
+    /* margin-top: -20px; */
+}
+
+.check h5{
+    /* border: 1px solid; */
+    color: #686464;
+    text-align: start;
+    font-size: 12px;
+    width: 100%;
+    /* margin-right: 30px; */
+}
+
+.point{
+    /* border: 1px solid; */
+    height: 15%;
+    width: 90%;
+   display: flex;
+   justify-content: center;
+}
+
+.point a{
+    /* border: 1px solid; */
+    height: 90%;
+    color: rgb(48, 197, 243);
+    background-color: #000000;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+}
+
+.point a:hover{
+   color: black;
+   background: #ff9dbf;
+}
+
+@media all and (max-width:768px){
+    .shots{
+        /* border: 1px solid; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .shot{
+        /* border: 1px solid; */
+        width: 28.9%;
+        height: 95%;
+       border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .shot1{
+        /* border: 2px solid; */
+        width: 60%;
+        height: 95%;
+        border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #66c8d8;
+    
+    }
+    
+    .ellam{
+        /* border: 5px solid yellow; */
+        height: 70%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    
+    .shot video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+    
+    .box{
+        /* border: 2px solid; */
+        width: 90%;
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    input{
+        border: 1px solid;
+        width: 47.5%;
+        height: 30%;
+        background-color: transparent;
+    }
+    ::placeholder{
+        text-align: center;
+    }
+    
+    input{
+        border: 1px solid;
+        width: 47.5%;
+        height: 80%;
+    }
+    
+    .all{
+        /* border: 1px solid; */
+        width: 90%;
+        height: 10%;
+    }
+    
+    .all input{
+        border: 1px solid;
+        width: 100%;
+        height: 80%;
+    }
+    
+    .all ::placeholder{
+        text-align: start;
+    }
+    a{
+        border: 1px solid;
+        width: 47.5%;
+        height: 30%;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .content {
+        /* border: 5px solid blue; */
+        width: 90%;
+        height: 25%;
+        font-family: "Poppins", serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* align-items: cente; */
+    }
+    
+    .content h1{
+        font-size: 30px;
+    
+    }
+    
+    .check{
+        /* border: 1px solid; */
+        font-size: 12px;
+        width: 90%;
+        font-family: "Poppins", serif;
+        display: flex;
+        justify-content: start;
+        
+        /* margin-top: -20px; */
+    }
+    
+    .check h5{
+        /* border: 1px solid; */
+        color: #686464;
+        text-align: start;
+        font-size: 13px;
+        width: 100%;
+        /* margin-right: 30px; */
+    }
+    
+    .point{
+        /* border: 1px solid; */
+        height: 10%;
+        width: 90%;
+       display: flex;
+       justify-content: center;
+    }
+    
+    .point a{
+        /* border: 1px solid; */
+        height: 90%;
+        color: rgb(48, 197, 243);
+        background-color: #000000;
+        font-family: "Poppins", serif;
+        font-size: 20px;
+    }
+    
+    .point a:hover{
+       color: black;
+       background: #ff9dbf;
+    }
+    
+}
+
+
+@media all and (max-width:576px){
+.shots{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shot{
+    /* border: 1px solid; */
+    width: 28.9%;
+    height: 95%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+    overflow: hidden;
+    display: none;
+}
+
+.shot1{
+    /* border: 2px solid; */
+    width: 90%;
+    height: 95%;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #66c8d8;
+
+}
+
+.ellam{
+    /* border: 5px solid yellow; */
+    height: 80%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.shot video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.box{
+    /* border: 2px solid; */
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: 1px solid;
+    width: 47.5%;
+    height: 30%;
+    background-color: transparent;
+}
+::placeholder{
+    text-align: center;
+}
+
+input{
+    border: 1px solid;
+    width: 47.5%;
+    height: 80%;
+}
+
+.all{
+    /* border: 1px solid; */
+    width: 90%;
+    height: 10%;
+}
+
+.all input{
+    border: 1px solid;
+    width: 100%;
+    height: 80%;
+}
+
+.all ::placeholder{
+    text-align: start;
+}
+a{
+    border: 1px solid;
+    width: 47.5%;
+    height: 30%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content {
+    /* border: 5px solid blue; */
+    width: 90%;
+    height: 25%;
+    font-family: "Poppins", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: cente; */
+}
+
+.content h1{
+    font-size: 30px;
+
+}
+
+.check{
+    /* border: 1px solid; */
+    /* font-size: 2px; */
+    width: 90%;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    
+    /* margin-top: -20px; */
+}
+
+.check h5{
+    /* border: 1px solid; */
+    color: #686464;
+    text-align: start;
+    font-size: 12px;
+    width: 100%;
+    /* margin-right: 30px; */
+}
+
+.point{
+    /* border: 1px solid; */
+    height: 10%;
+    width: 90%;
+   display: flex;
+   justify-content: center;
+}
+
+.point a{
+    /* border: 1px solid; */
+    height: 90%;
+    color: rgb(48, 197, 243);
+    background-color: #000000;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+}
+
+.point a:hover{
+   color: black;
+   background: #ff9dbf;
+}
+}
